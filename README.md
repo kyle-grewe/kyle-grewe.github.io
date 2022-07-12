@@ -1,3 +1,3 @@
 # kyle-grewe.github.io
 
-This repo will change drastically and randomly as I decide to experiment and play with different web technologies. Most of my learning about Git and Github will occur on this repo. This is mainly a private experiment, but is being kept public should it be necessary and for ease of access. Check back often!
+This website will change drastically and randomly as I decide to experiment and play with different web technologies. Most of my learning about Git, Github, and web tech will occur on this repo. Check back often!
