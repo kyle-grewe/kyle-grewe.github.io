@@ -1,13 +1,25 @@
+html {
+  font-family: arial;
+  text-align: center;
+}
+
+/*Buttons*/
 .bing-button {
   background-color: rgb(207, 0, 0);
   color: white;
   border: none;
-  height: 40px;
-  width: 150px;
+  margin-top: -15px;
+  margin-right: 8px;
+  margin-left:  8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   border-radius: 5px;
+  vertical-align: top;
   cursor: pointer;
-  margin-right: 7px;
   transition: opacity 0.2s;
+  
 }
 
 .bing-button:hover {
@@ -22,14 +34,21 @@
   background-color: transparent;
   color: black;
   border: rgb(8, 8, 212);
-  height: 40px;
-  width:fit-content;
   border-radius: 5px;
   border-style:solid;
   border-width: 2px;
   cursor: pointer;
   margin-right: 7px;
   transition: background-color 0.75s, color .75s;
+  margin-top: -15px;
+  margin-right: 8px;
+  margin-left:  8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  vertical-align: top;
 }
 
 .about-me:hover {
@@ -46,19 +65,24 @@
   background-color: rgb(24, 170, 238);
   color: white;
   border: none;
-  height: 40px;
-  width: fit-content;
   border-radius: 25px;
   cursor: pointer;
   font-weight: bold;
   font-size: 15px;
   transition: box-shadow .35s;
+  margin-top: -15px;
+  margin-right: 8px;
+  margin-left:  8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: top;
 }
 
 .twitter-link:hover{
   box-shadow: 0 5px 0 rgba(0, 0, 0, 0.125);
 }
-
 
 /*Just for fun, need to learn more about this*/
 @media (prefers-color-scheme: dark) {
@@ -67,3 +91,19 @@
     }
   }
 
+/*Text Styling*/
+.welcome-text{
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 26px;
+}
+
+.brief-info{
+  padding-bottom: 20px;
+}
+
+.learning-link:hover{
+  cursor:pointer;
+  text-decoration: underline;
+}
