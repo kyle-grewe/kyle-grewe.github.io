@@ -2,6 +2,9 @@
 <title>Test Page</title>
 <body>
   <h1>Welcome!</h1>
+  <button class="bing-button">Click Here to go to Bing!</button>
+  <button class="about-me">About Me</button>
+  <button class="twitter-link">Follow me on Twitter!</button>
   <p>This website will change drastically and randomly as I decide to experiment and play with different web technologies. Most of my learning about Git, Github, and web tech will occur on this repo. Check back often!</p>
 
   <h2>Header 2</h2>
@@ -11,36 +14,57 @@
       background-color: rgb(207, 0, 0);
       color: white;
       border: none;
-      height: 55px;
+      height: 40px;
       width: 150px;
       border-radius: 5px;
       cursor: pointer;
       margin-right: 7px;
+      transition: opacity 0.2s;
+    }
+
+    .bing-button:hover {
+      opacity: 0.7;
+    }
+
+    .bing-button:active {
+      opacity: 0.4;
     }
 
     .about-me{
       background-color: rgb(255, 255, 255);
       color: rgb(8, 8, 212);
       border: rgb(8, 8, 212);
-      height: 55px;
-      width: flex;
+      height: 40px;
+      width:fit-content;
       border-radius: 5px;
+      border-style:solid;
+      border-width: 2px;
       cursor: pointer;
       margin-right: 7px;
+      transition: background-color 0.25s;
+    }
+
+    .about-me:hover {
+      background-color: rgb(8, 8, 212);
+      color:white;
+    }
+
+    .about-me:active {
+      opacity: 0.5;
     }
 
     .twitter-link {
-      background-color: blue;
+      background-color: rgb(24, 170, 238);
       color: white;
       border: none;
-      height: 55px;
-      border-radius: 15px;
+      height: 40px;
+      width: fit-content;
+      border-radius: 25px;
       cursor: pointer;
+      font-weight: bold;
+      font-size: 15px;
     }
   </style>
 
-  <button class="bing-button">Click Here to go to Bing!</button>
-  <button class="about-me">About Me</button>
-  <button class="twitter-link">Follow me on Twitter!</button>
 </body>
 </html>
