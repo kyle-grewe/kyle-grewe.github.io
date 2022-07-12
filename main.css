@@ -1,1 +1,63 @@
-/*Test*/
+.bing-button {
+  background-color: rgb(207, 0, 0);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 7px;
+  transition: opacity 0.2s;
+}
+
+.bing-button:hover {
+  opacity: 0.7;
+}
+
+.bing-button:active {
+  opacity: 0.4;
+}
+
+.about-me{
+  background-color: transparent;
+  color: black;
+  border: rgb(8, 8, 212);
+  height: 40px;
+  width:fit-content;
+  border-radius: 5px;
+  border-style:solid;
+  border-width: 2px;
+  cursor: pointer;
+  margin-right: 7px;
+  transition: background-color 0.75s, color .75s;
+}
+
+.about-me:hover {
+  background-color: rgb(8, 8, 212);
+}
+
+.about-me:active {
+  opacity: 0.5;
+}
+
+.twitter-link {
+  background-color: rgb(24, 170, 238);
+  color: white;
+  border: none;
+  height: 40px;
+  width: fit-content;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+
+/*Just for fun, need to learn more about this*/
+@media (prefers-color-scheme: dark) {
+    .about-me {
+      color: white
+    }
+  }
+
