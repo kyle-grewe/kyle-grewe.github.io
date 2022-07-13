@@ -1,0 +1,9 @@
+.space-header{
+  width:70%;
+  max-height: 300px;
+  border-radius: 15px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
