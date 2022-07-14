@@ -7,3 +7,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.brief-info{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.div-live{
+  display: inline-block;
+}

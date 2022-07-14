@@ -92,10 +92,10 @@ html {
   }
 
 /*Text Styling*/
-.welcome-text{
+.intro-text{
   font-size: 20px;
   margin-left: 10%;
-  margin-right: 10%;
+  width:80%;
   line-height: 26px;
 }
 
