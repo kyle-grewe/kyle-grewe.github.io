@@ -3,27 +3,38 @@
   <head><link rel="stylesheet" href="styles/about-me.css"></head>
   <title>About Me</title>
   <body>
-    <div class="heading-and-su">
-      <img class="space-header" src="styles/spaceHeader.png">
-      <p class="brief-info">Kyle Grewe &#183; Currently Employed &#183; Learning HTML, CSS, PHP, and more.</p>
+    <div id="layout">
+      <!--Nav Bar-->
+      <div class="navigation">
+        <div><a href="index.html">Home</a></div>
+        <div><a href="work.html">Work</a></div>
+        <div><a href="about-me.html">About Me</a></div>
+        <div><a href="contact-me.html">Contact Me</a></div>
+      </div>
+<!--Space Picture (Might Remove?)-->
+      <div class="heading">
+        <img class="space-header" src="styles/spaceheader.png">
+        <p class="brief-info">Kyle Grewe &#183; Currently Employed &#183; Learning HTML, CSS, PHP, and more.</p>
+      </div>
+
+<!--Main Content area, easiest to break-->
+      <div class="main-content">
+        <!--Goals-->
+        <div class="headers" style="background-color: red;">Goals
+          <p style="text-align: left;">This is test text to see if my alignment is working correctly. This portion should overflow to the next line. If not that, then this should for sure.</p>
+        </div>
+        <!--Hobbies-->
+        <div class="headers" style="background-color: blue;">Hobbies
+        <p>I like gaming, learning coding, (trying) to exersise, and hopfully learning to play the guitar soon.</p></div>
+        <!--Previous Work-->
+        <div class="headers" style="background-color: green;">Previous Work
+        <p>I have worked at a few different companies while living in St. Cloud and commuted to the Twin Cities for a time as well. I am currently working remotely. I currently work at GrowthZone. I have also worked at Walmart, CentraCare, and Amazon.</p></div>
+      </div>
     </div>
 
-      <div style="
-        display: grid;
-        box-sizing:border-box;
-        grid-template-columns: 10% 1fr 1fr 1fr;">
-        <div class="main-menu">
-          
 
-        </div>
-        
-        <div style="text-align:center;">Goals
-          <p style="text-align:left;">This is test text to see if my alignment is working correctly.</p>
-        </div>
-        <div style="text-align:center;">Hobbies</div>
 
-        <div style="text-align:center;">Previous Work</div>
-      </div>
+
 
   </body>
 </html>

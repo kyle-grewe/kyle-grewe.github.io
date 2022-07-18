@@ -103,3 +103,14 @@ html {
   padding-bottom: 20px;
 }
 
+.navigation{
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(5, 5, 83);
+  border-radius: 10px;
+  align-items: center;
+  border: 4px solid black;  
+  
+}
