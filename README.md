@@ -2,8 +2,8 @@
 
 Head to the homepage! https://kyle-grewe.github.io
 
-Progress:
-  * HTML: 40%
-  * CSS: 30%
+Progress (As a beginner):
+  * HTML: 50%
+  * CSS: 40%
   * Javascript: 0%
   * PHP: 0%
