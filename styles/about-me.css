@@ -27,7 +27,7 @@ p{
   height: 55px;
   margin-right: 5%;
   margin-left: 5%;
-  background-color: rgb(53, 8, 95);
+  background-color:gray;
 }
 
 .left-side{
@@ -36,7 +36,7 @@ p{
   font-size: 25px;
   align-items: center;
   width: 15%;
-  background-color: brown;
+  
 }
 
 .center{
@@ -49,7 +49,7 @@ p{
 
 .right-side{
   display: flex;
-  background-color: green;
+  /*background-color: green;*/
   width: 15%;
   align-items: center;
   justify-content: center;

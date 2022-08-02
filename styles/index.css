@@ -28,7 +28,7 @@ html {
   height: 55px;
   margin-right: 5%;
   margin-left: 5%;
-  background-color: rgb(53, 8, 95);
+  background-color: grey;
 }
 
 .left-side{
@@ -37,7 +37,7 @@ html {
   font-size: 25px;
   align-items: center;
   width: 15%;
-  background-color: brown;
+  /*background-color: brown;*/
 }
 
 .center{
@@ -50,7 +50,7 @@ html {
 
 .right-side{
   display: flex;
-  background-color: green;
+  /*background-color: green;*/
   width: 15%;
   align-items: center;
   justify-content: center;
