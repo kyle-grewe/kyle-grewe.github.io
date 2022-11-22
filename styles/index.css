@@ -28,7 +28,8 @@ html {
   height: 55px;
   margin-right: 5%;
   margin-left: 5%;
-  background-color: grey;
+  background-color: rgb(43, 42, 42);
+  border-radius: 10px;
 }
 
 .left-side{
@@ -38,6 +39,7 @@ html {
   align-items: center;
   width: 15%;
   /*background-color: brown;*/
+  padding-left: 1.5em;
 }
 
 .center{
